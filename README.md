@@ -21,3 +21,10 @@ Project to use MarketOnDemand API to manage a stock portfolio.
   - pg2. GET /quote/<symbol>, maybe a query parameter
   - pg3. GET / or GET /protfolio
   - POST /buy
+
+
+## Development and Deployment
+* To deploy the heroku app on localhost:5000, and you have already
+  installed the heroku cli use
+
+```$ heroku local dev
