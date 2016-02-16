@@ -23,8 +23,17 @@ Project to use MarketOnDemand API to manage a stock portfolio.
   - POST /buy
 
 
-## Development and Deployment
+# Development and Deployment
 * To deploy the heroku app on localhost:5000, and you have already
-  installed the heroku cli use
+  installed the heroku cli usei
 
-```$ heroku local dev
+## To preview heroku app on localhost
+`$ heroku local dev`
+and navigate browser to localhost:5000
+
+## To preview heroku app on web
+`$ heroku open`
+
+## To deploy app locally with node
+`$ npm start`
+and navigage browser to localhost:3000
